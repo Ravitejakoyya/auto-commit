@@ -20,7 +20,7 @@ jobs:
       - name: Commit and push
         run: |
           git config user.name "Raviteja Koyya"
-          git config user.email "Ravitejakoyya651@gmail.com"
+          git config user.email "ravitejakoyya@users.noreply.github.com"
           git add daily.txt
           git commit -m "Daily update: $(date -u)" || echo "No changes to commit"
           git push
